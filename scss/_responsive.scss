@@ -1,0 +1,95 @@
+
+//Medium
+@media (max-width: 990px) { 
+    html {
+        font-size: 58.5%;
+    }
+    .container {
+        padding: 2% 5%;
+    }
+    #place1 {
+        padding: 12% 0 10%;
+    }
+    #place2 {
+        padding: 12% 0 10%;
+    }
+    #place3 {
+        padding: 12% 0 10%;
+    }
+    #place4 {
+        padding: 12% 0 10%;
+    }
+    .navbar-brand {
+        font-size: 1.8rem !important;
+    }
+    .card {
+        margin-top: 8%;
+    }
+    .navbar-nav {
+        background: $color-dark-white;
+        text-align: center;
+        padding: 5%;
+        margin: 4% 0;
+        border-radius: 2rem;
+        box-shadow: 0rem 0.4rem 0.9rem  rgb(55, 55, 55);
+        .nav-item {
+            margin: 0.3rem 0;
+        }
+        .nav-link {
+            color: $bg-dark;
+        }
+    }
+
+    .nav-link {
+        color: $bg-dark;
+    }
+    .navbar-toggler {
+        font-size: 2.5rem;
+        color: $color-white;
+        &:focus {
+            box-shadow: none; 
+        }
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .img__box {
+        position: relative;
+        height: 30vh;
+        border-radius: 1rem;
+    }
+    .full__width__img {
+        height: 30vh;
+    }
+
+}
+// Small
+@media (max-width: 500px) {
+    h1{
+        font-size: 3rem;
+    }
+    html {
+        font-size: 55%;
+    }
+    .navbar-brand {
+        font-size: 1.6rem !important;
+    }
+
+}
+
+
+// Extra Small
+@media (max-width: 400px) {
+    .img__box {
+        position: relative;
+        height: 32vh;
+        border-radius: 1rem;
+    }
+    .full__width__img {
+        height: 30vh;
+    }
+
+}
+

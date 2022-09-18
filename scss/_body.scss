@@ -1,0 +1,63 @@
+// Preloader
+#preloader{
+    background: $color-white url(../images/preloader.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+
+// Place 2
+#place1 {
+    padding: 6% 0 4%;
+    background: $color-white;
+}
+.card-body {
+    padding: 1% 0 !important;
+}
+.img__box {
+    position: relative;
+    height: 50vh;
+    border-radius: 1rem;
+}
+.img__box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.long__card__container {
+    margin-top: 2rem;
+}
+.full__width__img {
+    height: 60vh;
+    border-radius: 1.2rem;
+    margin: 2rem 0;
+    // object-fit: cover;
+}
+
+
+// Place 2
+#place2 {
+    background: $color-dark-white;
+    padding: 6% 0;
+}
+
+// Place 3
+#place3 {
+    background-color: $color-white;
+    padding: 6% 0;
+}
+
+// Place 4
+#place4 {
+    background-color: $color-dark-white;
+    padding: 6% 0;
+}
+
+// Place 5
+#place5 {
+    background: $color-white;
+    padding: 6% 0;
+}

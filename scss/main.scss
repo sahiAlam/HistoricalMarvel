@@ -1,0 +1,72 @@
+// All scss linking
+@import "../scss/variable";
+@import "../scss/body";
+@import "../scss/responsive";
+
+// Header Area Style 
+.navbar {
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(144, 142, 142);
+    // background: $para-color;
+    background: $color-secondary;
+}
+.navbar-brand {
+    color: $color-white;
+    font-family: 'EB Garamond', serif;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    &:hover {
+        color: $color-white;
+    }
+    span {
+        color: $bg-dark;
+        font-weight: 800;
+    }
+}
+.nav-item {
+    a {
+        margin: 0 0.6rem;
+        color: $color-white;
+        font-weight: 500;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        &:hover {
+            color: $bg-dark;
+        }
+    }
+}
+
+// Footer Area Style 
+.footer__container {
+    // background-color: $para-color;
+    background-color: $color-secondary;
+    text-align: center;
+    .footer__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        ul {
+            display: flex;
+            margin: 2rem 0;
+            list-style: none;
+            li {
+                margin: 0 0.7rem;
+                a {
+                    font-size: 1.4rem;
+                    color: $bg-dark;
+                    background-color: $color-white;
+                    color: $bg-dark;
+                    padding: 0.7rem 1.1rem;
+                    border-radius: 50%;
+                    display: inline-block;
+                    &:hover {
+                        background: $bg-dark;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+    p {
+        color: $color-dark-white;
+    }
+}
